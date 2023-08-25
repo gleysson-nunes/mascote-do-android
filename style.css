@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+.container {
+    background-image: linear-gradient(to left, #82d182, #248824);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: #8acf79;
+}
+
+h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+.paragrafo-cabecalho {
+    font-size: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#nav1 {
+    width: 100%;
+    text-align: left;
+    background-color: #076907;
+}
+
+.li1 {
+    display: inline;
+    list-style-type: none;
+}
+
+.a1 {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.a1:hover {
+    background-color: #053f05;
+}
+
+.container2 {
+    display: inline-block;
+    background-color: white;
+    width: 600px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295),
+        -2px 0px 3px rgba(0, 0, 0, 0.295);
+}
+
+h3 {
+    margin: 20px;
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #053f05;
+    font-size: 1.6em;
+}
+
+.paragrafos-do-texto {
+    margin: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.palavra-lincada {
+    color: #053f05;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.palavra-destacada {
+    color: #053f05;
+}
+
+h4 {
+    margin: 20px;
+    padding-left: 7px;
+    background-image: linear-gradient(to right, #badaba, white);
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+    color: #1e611e;
+}
+
+picture,
+img {
+    margin: 12px 0 12px 0;
+}
+
+#container-video {
+    margin-top: 12px;
+    outline: 5px solid #055805;
+    border: 20px solid #055805;
+    border-width: 15px 30px 15px 30px;
+}
+
+aside {
+    display: inline-block;
+    background-color: white;
+    width: 600px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295),
+        -2px 0px 3px rgba(0, 0, 0, 0.295);
+}
+
+.nav {
+    margin: 0 15px 0 15px;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    background-color: #bae4ba;
+}
+
+.nav .lista-dos-androids {
+    display: inline;
+    padding-top: 20px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    text-align: left;
+    line-height: 15px;
+}
+
+.alin-cent {
+    margin-top: -19px;
+    text-indent: 300px;
+    line-height: 22px;
+}
+
+#paragrafo-aside1 {
+    margin: 12px 15px 0 15px;
+    padding-top: 8px;
+    border-radius: 10px 10px 0 0;
+    background-color: #30ac30;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    text-indent: 30px;
+    color: white;
+    height: 35px;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.paragrafos-do-aside {
+    margin: 0 15px 0 15px;
+    padding: 15px 10px 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-indent: 30px;
+    text-align: justify;
+    background-color: #bae4ba;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    display: inline-block;
+    padding-top: 5px;
+    background-color: rgb(4, 75, 4);
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: 25px;
+}
+
+.curso-em-video {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#ultimo-paragrafo {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 15px 30px 0 30px;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    width: 600px;
+    height: 80px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295), -2px 0 0 rgba(0, 0, 0, 0.295);
+}
+
+#site-do-android {
+    text-decoration: none;
+    color: #053f05;
+}
