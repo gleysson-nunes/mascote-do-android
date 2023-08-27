@@ -13,6 +13,6 @@ A página sobre a história do mascote do Android faz parte do desafio nº 10 do
 
 # Como Ver a Página Completa
 
-Clique [aqui](https://gleysson-nunes.github.io/mascotedoandroid/) para ver a página completa.
+Clique [aqui](https://gleysson-nunes.github.io/mascote-do-android/) para ver a página completa.
 
 ✌️
